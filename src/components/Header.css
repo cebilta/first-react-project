@@ -7,16 +7,18 @@
 }
 
 .main-info {
-  top: 0;
+  top: -28rem;
   left: 0;
-  right: -60rem;
-  bottom: 30rem;
+  right: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: absolute;
+  font-family: "Roboto Condesed" sans-serif;
+  z-index: 1;
 }
 .main-info h1 {
   color: orange;
@@ -27,4 +29,14 @@
 }
 .btn-main-offer {
   border: 1px solid;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.62rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-red);
+  transition: 0.2s ease-in-out;
 }
